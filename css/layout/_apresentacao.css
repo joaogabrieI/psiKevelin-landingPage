@@ -15,11 +15,22 @@
     width: 70%;
 }
 
-.apresentacao img {
-    width: 100%;
-}
-
 @media (max-width: 600px) {
+    .apresentacao {
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .apresentacao img {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .apresentacao-image {
+        text-align: center;
+    }
+
     .container-apresentacao {
         flex-direction: column;
         justify-content: center;

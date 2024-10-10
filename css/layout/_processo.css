@@ -1,12 +1,24 @@
 .processo {
     background-color: var(--cor-fundo2);
-}
-
-.processo-container {
-    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .processo-title {
     padding-top: 20px;
     padding-bottom: 100px;
+}
+
+@media (max-width: 600px){
+    .container-processo, .container-card-processo{
+        flex-direction: column;
+    }
+
+    .processo-title {
+        padding-bottom: 30px;
+    }
+
+    .processo p {
+        width: 50%;
+    }
 }

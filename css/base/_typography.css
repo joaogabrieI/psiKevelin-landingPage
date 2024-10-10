@@ -18,6 +18,19 @@
     font-size: 28px;
 }
 
-.card-trabalho h3 {
+.card-trabalho h3, .processo-card h3, .info h3{
     font-weight: bold;
+}
+
+@media (max-width: 600px){
+    .apresentacao-title, .sobre-title, .trabalho-title, .processo-title, .info-title, .contato-title {
+        font-size: 35px;
+        font-family: var(--font-rochester);
+    }
+
+    .apresentacao-text, .sobre-text, .card-trabalho h3, .card-trabalho p, .processo-card h3, .processo-card p, .info h3, .info p, footer p{
+        font-family: var(--font-quicksand);
+        line-height: 1.2rem;
+        font-size: 20px;
+    }
 }

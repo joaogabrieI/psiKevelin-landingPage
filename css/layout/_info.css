@@ -14,3 +14,18 @@
 .info h2 {
     padding-bottom: 50px;
 }
+
+@media(max-width: 600px) {
+    .info-cards-container {
+        flex-direction: column;
+    }
+
+    .info-img img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .info-title {
+        margin-bottom: -20px;
+    }
+}

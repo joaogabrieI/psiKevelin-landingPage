@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+.container-sobre {
+    align-items: center;
+}
+
 .text-sobre {
     display: flex;
     flex-direction:column;
@@ -28,4 +32,13 @@
     .container-sobre {
         flex-direction: column;
     }
+
+    .title-sobre {
+        width: 70%;
+    }
+    
+    .text-sobre {
+        width: 100%;
+    }
+    
 }
