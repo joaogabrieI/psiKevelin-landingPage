@@ -1,0 +1,23 @@
+.nav-title {
+    font-family: var(--font-rochester);
+    font-size: 28px;   
+}
+
+.apresentacao-title, .sobre-title, .trabalho-title, .processo-title, .info-title, .contato-title {
+    font-size: 70px;
+    font-family: var(--font-rochester);
+}
+
+.apresentacao-text, .sobre-text, .card-trabalho h3, .card-trabalho p, .processo-card h3, .processo-card p, .info h3, .info p, footer p{
+    font-family: var(--font-quicksand);
+    line-height: 1.8rem;
+    font-size: 24px;
+}
+
+.card-trabalho h3, .processo-card h3, .info h3{
+    font-size: 28px;
+}
+
+.card-trabalho h3 {
+    font-weight: bold;
+}

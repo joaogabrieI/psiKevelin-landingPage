@@ -1,0 +1,12 @@
+.processo {
+    background-color: var(--cor-fundo2);
+}
+
+.processo-container {
+    height: 600px;
+}
+
+.processo-title {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}

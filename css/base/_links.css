@@ -1,0 +1,18 @@
+.nav-links {
+    font-family: var(--font-quicksand);
+}
+
+.nav-links a{
+    color: black;
+}
+
+.nav-links a:hover {
+    color: blueviolet;
+}
+
+.social-link {
+    font-family: var(--font-quicksand);
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}

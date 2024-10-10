@@ -1,0 +1,20 @@
+.trabalho {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--cor-fundo1);
+}
+
+.trabalho-title {
+    width: 80%;
+}
+
+.img1 {
+    width: 130px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px){
+    .container-trabalho {
+        flex-direction: column;
+    }
+}

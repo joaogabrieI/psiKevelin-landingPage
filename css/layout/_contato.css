@@ -1,0 +1,15 @@
+.contato {
+    background-color: var(--cor-fundo2);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-contato {
+    gap: 200px;
+}
+
+.container-contato img {
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+}

@@ -1,0 +1,31 @@
+.apresentacao {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--cor-fundo1);
+}
+
+.text-apresentacao{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.text-apresentacao h1 {
+    width: 70%;
+}
+
+.apresentacao img {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .container-apresentacao {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text-apresentacao {
+        width: 100%;
+    }
+}
