@@ -11,7 +11,6 @@
     display: flex;
     flex-direction:column;
     justify-content: center;
-    width: 80%;
 }
 
 .sobre svg {
@@ -23,10 +22,6 @@
     display: none;
 }
 
-.title-sobre {
-    width: 50%;
-}
-
 .text-sobre {
     width: 50%;
 }
@@ -36,8 +31,10 @@
         flex-direction: column;
     }
 
-    .title-sobre {
-        width: 70%;
+    .sobre-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
     }
     
     .text-sobre {
