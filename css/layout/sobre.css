@@ -1,7 +1,5 @@
 .sobre {
     background-color: var(--cor-fundo2);
-    padding-top: 50px;
-    padding-bottom: 50px;
     width: 100%;
 }
 
@@ -13,6 +11,16 @@
     display: flex;
     flex-direction:column;
     justify-content: center;
+    width: 80%;
+}
+
+.sobre svg {
+    width: 50%;
+    height: 100%;
+}
+
+.blob-mobile {
+    display: none;
 }
 
 .title-sobre {
@@ -21,11 +29,6 @@
 
 .text-sobre {
     width: 50%;
-}
-
-.sobre img {
-    width: 20%;
-    height: 50%;
 }
 
 @media (max-width: 600px){
@@ -39,6 +42,14 @@
     
     .text-sobre {
         width: 100%;
+    }
+
+    .sobre-img {
+        display: none;
+    }
+
+    .blob-mobile {
+        display: block;
     }
     
 }
