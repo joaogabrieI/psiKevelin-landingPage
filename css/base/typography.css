@@ -18,8 +18,13 @@
     font-size: 28px;
 }
 
-.card-trabalho h3, .processo-card h3, .info h3{
+.card-trabalho h3, .processo-card h3, .info h3, .contato-whatsapp a {
     font-weight: bold;
+}
+
+.contato-whatsapp a {
+    font-family: var(--font-quicksand);
+    font-size: 18px;
 }
 
 @media (max-width: 600px){

@@ -16,3 +16,51 @@
     text-decoration: none;
     color: black;
 }
+
+.contato-whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #36FF8D;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contato-whatsapp a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.contato-whatsapp img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contato-whatsapp-mobile {
+    display: none;
+}
+
+@media (max-width: 600px){
+    .contato-whatsapp {
+        display: none;
+    }
+    .contato-whatsapp-mobile{
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    
+    .contato-whatsapp-mobile a {
+        text-decoration: none;
+        color: #ffff;
+    }
+    
+    .contato-whatsapp-mobile img {
+        width: 40px;
+        height: 40px;
+    }
+}
