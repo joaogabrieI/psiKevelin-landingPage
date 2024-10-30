@@ -15,6 +15,11 @@
     width: 70%;
 }
 
+.apresentacao img {
+    width: 300px;
+    height: 600px;
+}
+
 .corner-shape {
     position: absolute;
     top: 0;
