@@ -24,3 +24,17 @@
 .carousel-control-prev-icon {
     margin-left: 170px;
 }
+
+@media(max-width: 600px){
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        background-color: black;
+    }
+    
+    .carousel-control-next-icon {
+        margin-right: 10px;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-left: 10px;
+    }
+}
