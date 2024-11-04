@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/logo.ico">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=chevron_right" />
@@ -17,6 +15,14 @@
 
 <body>
     <header id="header">
+        <div class="corner-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 600 600">
+                <path
+                    d="M-8.246076591351141 -7.068062412800941C17.27748258159706 -17.801047273539062 130.62826322760333 -20.02617735471582 144.109938137195 -10.209423649373207C157.59161304678668 -0.39266994403059563 85.8638672753786 30.366492323018562 72.64397286619891 51.83245981925472C59.42407845701922 73.29842731549088 78.53402669475624 99.47643412345394 64.79057168211688 118.58638132804379C51.04711666947751 137.69632853263363 2.486907554131241 177.22512568229183 -9.816757209637274 166.49214304679379C-22.12042197340579 155.75916041129574 -9.293197003541895 83.11518642498795 -9.031416900494207 54.188485515055504C-8.769636797446518 25.261784605123054 -33.76963576429934 3.664922447937178 -8.246076591351141 -7.068062412800941C17.27748258159706 -17.801047273539062 130.62826322760333 -20.02617735471582 144.109938137195 -10.209423649373207 "
+                    fill="#5C80E9"></path>
+            </svg>
+        </div>
         <nav class="d-flex justify-content-between container">
             <p class="nav-title">Kevelin Camilo</p>
             <div id="menu-icon" class="menu-icon">&#9776;</div>
@@ -61,15 +67,6 @@
             </a>
         </div>
         <section class="apresentacao">
-            <div class="corner-shape">
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 600 600">
-                    <path
-                        d="M-8.246076591351141 -7.068062412800941C17.27748258159706 -17.801047273539062 130.62826322760333 -20.02617735471582 144.109938137195 -10.209423649373207C157.59161304678668 -0.39266994403059563 85.8638672753786 30.366492323018562 72.64397286619891 51.83245981925472C59.42407845701922 73.29842731549088 78.53402669475624 99.47643412345394 64.79057168211688 118.58638132804379C51.04711666947751 137.69632853263363 2.486907554131241 177.22512568229183 -9.816757209637274 166.49214304679379C-22.12042197340579 155.75916041129574 -9.293197003541895 83.11518642498795 -9.031416900494207 54.188485515055504C-8.769636797446518 25.261784605123054 -33.76963576429934 3.664922447937178 -8.246076591351141 -7.068062412800941C17.27748258159706 -17.801047273539062 130.62826322760333 -20.02617735471582 144.109938137195 -10.209423649373207 "
-                        fill="hsl(340, 45%, 50%)"></path>
-                </svg>
-            </div>
-
             <div class="d-flex justify-content-around container container-apresentacao">
                 <div class="text-apresentacao">
                     <h1 class="apresentacao-title mb-3">Estar em paz consigo mesma é a chave para o bem-estar!</h1>
@@ -78,14 +75,14 @@
                         vivências e descobrindo juntas a essência que nos define.</p>
                 </div>
                 <div class="apresentacao-image">
-                    <img src="img/flower4.png" alt="">
+                    <img src="img/logo.png" alt="">
                 </div>
             </div>
 
         </section>
 
         <section class="sobre" id="sobre">
-            <div class="d-flex justify-content-between container container-sobre">
+            <div class="d-flex justify-content-around container container-sobre">
                 <div class="text-sobre">
                     <h2 class="sobre-title mb-3">Um pouco sobre mim:</h2>
                     <p class="sobre-text">Olá, meu nome é Kevelin Camilo, CRP 06/209470, e tenho o propósito de ajudar
@@ -99,33 +96,12 @@
                         construir
                         ferramentas que a torne consciente do seu funcionamento e responsável pelo seu bem-estar!</p>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 600 600" class="sobre-img">
-                    <path
-                        d="M668.9347173760989 11.931858478870367C616.1860296319583 -35.450338265412675 421.8143102716067 -12.282800894095129 355.58394833313014 10.361177860584235C289.3535863946536 33.0051566152636 271.028986174927 100.80620394039786 271.5525457452395 147.79573100694654C272.076105315552 194.7852580734952 352.57347317443873 241.1203286835416 358.72530575500514 292.2983402598762C364.87713833557154 343.4763518362109 306.500187753703 403.1622267751757 308.46354122863795 454.86380046495435C310.4268947035729 506.565374154733 310.03422756897 594.1308191010244 370.5054266046145 602.5077823985503C430.97662564025904 610.8847456960764 621.028960743612 556.4344842621572 671.2907354425051 505.1255802501106C721.5525101413983 453.81667623806635 672.4687444757083 376.8533119548225 672.0760747979739 294.6543583262825C671.6834051202395 212.45540469774244 721.6834051202395 59.31405522315341 668.9347173760989 11.931858478870367C616.1860296319583 -35.450338265412675 421.8143102716067 -12.282800894095129 355.58394833313014 10.361177860584235 "
-                        fill="url(#img)"
-                        transform="matrix(1.3400956406250004,0,0,1.3400956406250004,-139.26186847255377,-96.94029022719548)">
-                    </path>
-                    <defs>
-                        <pattern id="img" patternUnits="objectBoundingBox" width="1" height="1">
-                            <image href="img/office.webp" width="50%" height="100%"
-                                preserveAspectRatio="xMidYMid slice" />
-                        </pattern>
-                    </defs>
-                </svg>
 
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="blob-mobile">
-                    <path fill="url(#img-2)"
-                        d="M45.7,-55.3C58.4,-43.8,67.3,-28.6,69.3,-12.9C71.2,2.8,66.2,19.1,57.5,32.3C48.8,45.6,36.4,55.8,21.8,62.1C7.2,68.3,-9.6,70.5,-26.9,67.1C-44.2,63.8,-61.9,54.9,-69.3,40.7C-76.7,26.5,-73.8,7,-70.9,-13.1C-68,-33.1,-65.2,-53.8,-53.4,-65.4C-41.6,-77.1,-20.8,-79.9,-2.2,-77.3C16.5,-74.7,33,-66.8,45.7,-55.3Z"
-                        transform="translate(100 100)" />
-                    <defs>
-                        <pattern id="img-2" patternUnits="objectBoundingBox" width="1" height="1">
-                            <image href="img/office.webp" width="100%" height="100%"
-                                preserveAspectRatio="xMidYMid slice" />
-                        </pattern>
-                    </defs>
-                </svg>
+                <div>
+                    <img src="img/perfil.png" alt="">
+                </div>        
             </div>
+            <img src="img/sssurf.svg" alt="" class="svg-background">
         </section>
 
         <section class="trabalho" id="trabalho">
@@ -138,7 +114,7 @@
                         <p class="text-center">Construiremos técnicas que te auxiliem a acalmar seus pensamentos e a
                             resolver problemas</p>
                     </div>
-                    <div class="d-flex flex-column w-75 align-items-center card-trabalho">
+                    <div class="d-flex flex-column w-75 align-items-center card-trabalho mt-5">
                         <img src="img/sessoes-estruturadas.png" alt="" class="img1">
                         <h3 class="text-center">Sessões estruturadas</h3>
                         <p class="text-center">Sempre conversaremos sobre objetivos, pensamentos, emoções e desafios.
@@ -249,28 +225,93 @@
             </div>
         </section>
 
+        <section class="ajuda">
+            <div class="container">
+                <h2 class="text-center title-ajuda">Em que posso te ajudar</h2>
+                <div id="carouselExampleIndicators" class="carousel slide d-flex flex-column align-items-center pt-5"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner w-50">
+                        <div class="carousel-item active">
+                            <h3 class="text-center title-carousel-card">Desânimo e depressão</h3>
+                            <p class="text-center">Com uma abordagem acolhedora, vamos trabalhar juntos para que você
+                                compreenda as
+                                armadilhas do humor e os fatores que contribuem para o abatimento. Utilizaremos
+                                ferramentas práticas para explorar suas emoções e identificar por onde começar a
+                                mudança. Nosso foco será fortalecer seu sentimento de motivação e promover estratégias
+                                que ajudem a lidar com esses desafios, sempre respeitando seu ritmo e suas necessidades.
+                                Através desse processo, buscaremos soluções que possam trazer mais equilíbrio e
+                                bem-estar para sua vida.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="text-center title-carousel-card">Medo e dúvida de si</h3>
+                            <p class="text-center">vamos trabalhar para que você desenvolva ferramentas para lidar com
+                                críticas e
+                                desaprovações, enquanto construímos sua autoconfiança. Juntos, iremos identificar os
+                                comportamentos que intensificam a angústia e compreender as origens da sensação de
+                                insuficiência e do medo constante. Nosso objetivo será criar estratégias práticas para
+                                enfrentar esses desafios de forma mais equilibrada e fortalecida, sempre respeitando seu
+                                tempo e suas necessidades ao longo do processo.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="text-center title-carousel-card">Ciúmes e relacionamentos</h3>
+                            <p class="text-center">Vamos explorar juntos os mitos sobre relacionamentos e os diferentes
+                                tipos de apego.
+                                Trabalharemos para desenvolver sua autoconsciência e responsabilidade afetiva,
+                                promovendo reparações e o compartilhamento de objetivos e valores em suas relações. Além
+                                disso, buscaremos compreender a raiz do ciúmes, avaliando as evidências para entender se
+                                o sentimento é justificado, enquanto encontramos formas saudáveis de lidar com emoções
+                                negativas sem reprimi-las. Nosso objetivo será proporcionar mais equilíbrio e
+                                compreensão nas suas vivências afetivas.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="text-center title-carousel-card">Ansiedade e uma vida significativa</h3>
+                            <p class="text-center">Com uma abordagem acolhedora, vamos juntos explorar o dilema do “eu
+                                só quero ser feliz”,
+                                ajudando você a definir o que realmente importa e a construir uma vida plena de sentido.
+                                Trabalharemos para identificar quando é o momento de buscar ajuda, compreendendo a
+                                ansiedade como uma emoção natural. Utilizaremos técnicas de respiração e estratégias
+                                para reconhecer os momentos de crise, sempre respeitando seu ritmo e necessidades. O
+                                foco será trazer mais clareza e equilíbrio para sua jornada em direção ao bem-estar.</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
         <section class="contato" id="contato">
             <div class="container d-flex align-items-center justify-content-center container-contato">
                 <h2 class="contato-title">Entre em contato!</h2>
                 <div>
-                    <div class="d-flex">
+                    <div class="d-flex w-50">
                         <img src="img/instagram.png" alt="Instagram">
                         <div class="d-flex align-items-center">
-                            <a href="#" class="social-link">Instagram</a>
+                            <a href="https://www.instagram.com/psi.kevelincamilo?igsh=MWRqZ2FmZnZ3MG5xbg=="
+                                target="_blank" class="social-link">@psi.kevelincamilo</a>
                         </div>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex w-50">
                         <img src="img/whatsapp.png" alt="WhatsApp">
                         <div class="d-flex align-items-center">
-                            <a href="#" class="social-link">WhatsApp</a>
+                            <a href="#" target="_blank" class="social-link">WhatsApp</a>
                         </div>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex w-50">
                         <div>
                             <img src="img/email.png" alt="E-mail">
                         </div>
                         <div class="d-flex align-items-center">
-                            <a href="" class="social-link">E-mail</a>
+                            <a href="mailto:kevelin.santos.ls@gmail.com"
+                                class="social-link">kevelin.santos.ls@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -279,7 +320,8 @@
     </main>
     <footer>
         <div class="text-center p-2">
-            <p>Kevelin Camilo</p>
+            <p>Psicóloga Kevelin Camilo CRP: 06/209470 &#169; 2024 - Todos os direitos Reservados - Desenvolvido por <a
+                    href="https://github.com/joaogabriei">João Gabriel</a></p>
         </div>
     </footer>
 
@@ -298,6 +340,9 @@
             sidebar.classList.remove('show'); // Remove a classe 'show' para fechar o menu
         });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
