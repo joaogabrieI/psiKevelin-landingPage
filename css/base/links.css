@@ -1,66 +1,7 @@
-.nav-links {
-    font-family: var(--font-quicksand);
-}
-
-.nav-links a{
-    color: black;
-}
-
-.nav-links a:hover {
-    color: blueviolet;
-}
-
-.social-link {
-    font-family: var(--font-quicksand);
-    font-size: 30px;
+.btn-whatsapp {
+    background-color: #9E2A2B;
     text-decoration: none;
-    color: black;
-}
-
-.contato-whatsapp{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    background-color: #36FF8D;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.contato-whatsapp a {
-    text-decoration: none;
-    color: #ffff;
-}
-
-.contato-whatsapp img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-.contato-whatsapp-mobile {
-    display: none;
-}
-
-@media (max-width: 600px){
-    .contato-whatsapp {
-        display: none;
-    }
-    .contato-whatsapp-mobile{
-        display: block;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        z-index: 1000;
-    }
-    
-    .contato-whatsapp-mobile a {
-        text-decoration: none;
-        color: #ffff;
-    }
-    
-    .contato-whatsapp-mobile img {
-        width: 40px;
-        height: 40px;
-    }
+    color: #FFFF;
+    border-radius: 20px;
+    padding: 7px 20px 7px 20px;
 }

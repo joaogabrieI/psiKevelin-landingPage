@@ -2,13 +2,5 @@
 @import "base/variables.css";
 @import "base/typography.css";
 @import "base/links.css";
-@import "layout/header.css";
-@import "layout/apresentacao.css";
-@import "layout/sobre.css";
-@import "layout/trabalho.css";
 @import "module/card.css";
-@import "layout/processo.css";
-@import "layout/info.css";
-@import "layout/contato.css";
-@import "layout/footer.css";
-@import "layout/ajuda.css";
+@import "layout/inicio.css";
