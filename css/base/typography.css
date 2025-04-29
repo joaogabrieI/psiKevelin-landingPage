@@ -12,7 +12,7 @@
     line-height: 21px;
 }
 
-.texto-apresentacao {
+.texto-apresentacao, .btn-whatsapp-sobre-mim {
     font-family: var(--font-fraunces);
     font-size: 24px;
     line-height: 30px;
@@ -22,9 +22,26 @@
     font-size: 60px;
     line-height: 74px;
     color: #272665;
+    font-weight: bolder;
+}
+
+.text-sobre-mim h2{
+    font-size: 60px;
+    line-height: 74px;
+    color: #9E2A2B;
     font-weight: bold;
+    font-family: var(--font-fraunces);
+    font-weight: bold;
+}
+
+.text-sobre-mim p {
+    font-size: 32px;
+    line-height: 39px;
+    font-family: var(--font-fraunces);
+    opacity: 63%;
 }
 
 .btn-whatsapp {
     font-size: 16px;
+    font-weight: bold   ;
 }

@@ -1,0 +1,16 @@
+.sobre-mim {
+    background-image: url('../../img/background-sobre-mim.png');
+    background-repeat: no-repeat;
+    background-position-x: 463px;
+    height: 900px;
+    gap: 250px;
+}
+
+.img-sobre-mim img {
+    height: 630px;
+    width: 500px;
+}
+
+.text-sobre-mim {
+    width: 35%;
+}
