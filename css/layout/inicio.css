@@ -2,3 +2,11 @@
     margin-top: 15rem;
 }
 
+.inicio {
+    background-color: #F9F9F9;
+    background-image: url("../../img/Inicio.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 210px;
+}
+

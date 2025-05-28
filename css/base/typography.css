@@ -2,7 +2,7 @@
     font-family: var(--font-playwrite);
 }
 
-.info h3{
+.info h3 {
     font-size: 24px;
     line-height: 43px;
 }
@@ -12,7 +12,8 @@
     line-height: 21px;
 }
 
-.texto-apresentacao, .btn-whatsapp-sobre-mim {
+.texto-apresentacao,
+.btn-whatsapp-sobre-mim {
     font-family: var(--font-fraunces);
     font-size: 24px;
     line-height: 30px;
@@ -25,7 +26,8 @@
     font-weight: bolder;
 }
 
-.text-sobre-mim h2, .container-ajuda h2{
+.text-sobre-mim h2,
+.container-ajuda h2 {
     font-size: 60px;
     line-height: 74px;
     color: #9E2A2B;
@@ -43,7 +45,7 @@
 
 .btn-whatsapp {
     font-size: 16px;
-    font-weight: bold   ;
+    font-weight: bold;
 }
 
 .container-ajuda p {
@@ -51,4 +53,26 @@
     opacity: 63%;
     font-size: 30px;
     line-height: 35px;
+}
+
+.title-section {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: var(--font-fraunces);
+}
+
+.container-card h5 {
+    font-family: var(--font-raleway);
+    font-size: 24px;
+    line-height: 28px;
+    opacity: 63%;
+}
+
+.container-card p {
+    font-family: var(--font-raleway);
+    font-size: 20px;
+    line-height: 23px;
+    opacity: 63%;
 }
