@@ -1,0 +1,24 @@
+.abordagem {
+}
+
+.container-abordagem-adultos {
+    background-color: rgba(237, 218, 255, .7);
+    width: 100%;
+    padding: 150px;
+}
+
+.container-abordagem-criancas {
+    background-color: #f9f9f9;
+    width: 100%;
+    padding: 150px;
+}
+
+.container-abordagem-adultos h2, .container-abordagem-criancas h2{
+    margin-bottom: 36px;
+}
+
+.container-abordagem-adultos img, .container-abordagem-criancas img{
+    width: 56px;
+    height: 59px;
+    margin-right: 10px;
+}
