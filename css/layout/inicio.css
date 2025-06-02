@@ -4,9 +4,15 @@
 
 .inicio {
     background-color: #F9F9F9;
-    background-image: url("../../img/Inicio.png");
-    background-repeat: no-repeat;
-    background-position: right;
     padding-bottom: 210px;
+    z-index: -1;
 }
 
+.big-image {
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 1240px;
+    z-index: 1;
+    pointer-events: none;
+}
