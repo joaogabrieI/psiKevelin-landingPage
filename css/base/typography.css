@@ -77,7 +77,7 @@
     opacity: 63%;
 }
 
-.container-abordagem-adultos h2, .container-abordagem-criancas h2{
+.container-abordagem-adultos h2, .container-abordagem-criancas h2, .depoimentos h2{
     font-family: var(--font-fraunces);
     font-size: 60px;
     color: #9E2A2B;
@@ -116,4 +116,21 @@
     font-size: 24px;
     line-height: 30px;
     opacity: 63%;
+}
+
+.depoimentos h2 {
+    font-weight: normal;
+}
+
+.depoimento-text {
+    font-family: var(--font-raleway);
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.depoimento-iniciais {
+    font-family: var(--font-fraunces);
+    font-size: 30px;
+    line-height: 37px;
+    color: #9E2A2B;
 }

@@ -1,0 +1,15 @@
+.depoimentos {
+    background-color: #DFC6F6;
+}
+
+.depoimentos h2 {
+    padding: 50px 0 50px 200px;
+}
+
+.depoimento-text {
+    padding: 20px;
+}
+
+.depoimentos img {
+    margin-bottom: 50px;
+}
